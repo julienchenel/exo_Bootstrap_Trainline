@@ -29,6 +29,7 @@ Deux maquettes
 - Utilisation du framework CSS Bootstrap
 
 ### Ressources supplémentaires 
+- https://medium.com/makestorming/comprendre-ux-et-ui-5cdc13c315b2
 - https://www.youtube.com/watch?v=eIWRbvE1B2E
 - https://medium.com/@tjoye20/bootstrap-tutorial-quick-introduction-21c101910ab5
 - http://flexboxfroggy.com/

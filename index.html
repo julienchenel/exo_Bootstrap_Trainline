@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Réserver un train</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -8,128 +7,346 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
-
 <body>
 
- <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-          <svg xmlns="img/trainline-logo-white-8f87ae08035d6750c1a5e836909ecd1a.svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"></svg>
-        </a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
-      </div>
-    </nav>
+<div></div>
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem modi placeat atque voluptate provident molestias sit exercitationem, nihil, sunt amet quis aut ipsa vitae omnis quaerat eligendi voluptatem libero dolorum impedit adipisci. Quasi et eum, doloremque cupiditate praesentium dolores dolor velit aspernatur sunt quia, reiciendis nesciunt reprehenderit. Error molestias ipsum doloremque sapiente, provident consequuntur qui quidem assumenda mollitia magni. Facere possimus, fugiat in dolore fugit porro nam dolores vero sunt.</p>
-      </div>
+<!-- Barre de navigation -->
 
+</div>
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <nav class="nav flex-column">
+                    <a class="mx-auto" href="#">Features</a>
+                    <a class="mx-auto" href="#">Enterprise</a>
+                    <a class="mx-auto" href="#">Support</a>
+                </nav>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark d-flex justify-content-end">
+            <div id="brand">
+            <a class="navbar-brand justify-content-start" href="#"><img src="img/trainline-logo-cf635433ef235d4f4eb00da841ad174c.svg"></a></div>
+            <button class="navbar-toggler py-2 d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <a class="bouton btn btn-primary py-2 mx-2 d-none d-md-block px-3" href="#" role="button">créer un bouton </a>
+            <a class="bouton btn btn-primary py-2 mx-2 d-none d-md-block px-3" href="#" role="button">se connecter</a>
+            <div><a id="aide" class=" py-2 mx-2 d-none d-md-block px-3" href="#">AIDE</a></div>
+            <img id="flag" class="mx-2 d-none d-md-block" src="img/flag-fr.png">
+            <a id="devise" class="bouton btn btn-primary py-2 mx-2 d-none d-md-block px-2" href="#" role="button">eur</a>
+        </nav>
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
+<!-- Fin Barre de navigation -->
+
+
+<!-- DIV Réservez vos billets de train. En France et en Europe.
+Voyagez avec Trainline, leader indépendant de la vente de billets de train en Europe.
+
+ -->
+<div class="container-fluid d-block d-md-none">
+    <div lass="row">
+        <h3 id="titreMobile">Réservez vos billets de train. En France et en Europe.</h3>
+        <input id="from" type="text" name="">
+        <input id="to" type="text" name="">
     </div>
+</div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
-      <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
+<div id="backgroundImage" class="container-fluid d-none d-md-block">
+    <div id="titre">
+        <p>Réservez vos billets de train. En France et en Europe.</p>
+        <h5>Voyagez avec Trainline, leader indépendant de la vente de billets de train en Europe.</h5></div>
+    <div class="row">
+        <div class="col-5 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h6>Quel est votre trajet ?</h6>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="form1 input-group-text" id="inputGroup-sizing-default"><img src="img/from-793fd74a5d09b687beb849fab15ae7a6.svg"></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="form2 input-group-text" id="inputGroup-sizing-default"><img src="img/to-3c0a8d746fa1464b9bd1f7be13b6b127.svg"></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><img src="img/aller.svg"></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><img src="img/retour.svg"></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">+</span>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <a id="codeReduc" class="align-self-center mx-auto" href="#">Utiliser un code de réduction</a>
+                        <a class="bouton btn btn-primary" href="#" role="button">rechercher</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-5 mx-auto">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+                <div class="card-header">Les petits plus de Trainline</div>
+                <div class="card-body">
+                    <div class="rond"><img src="img/credit card.png"></div>
+                    <h5 class="card-title">Vos billets au meilleur prix</h5>
+                    <p class="card-text">Achetez vos billets aux prix fixés par les transporteurs, sans frais supplémentaires.</p>
+                    <h5 class="card-title">Cartes de réduction</h5>
+                    <p class="card-text">Elles sont toutes acceptées, comme vos cartes de fidélité.</p>
+                    <h5 class="card-title">Payez en toute sécurité</h5>
+                    <p class="card-text">CB, Amex, PayPal, Chèques-Vacances ANCV : c’est vous qui voyez.</p>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-        <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
+<!-- DESKTOP et MOBILE - DIV SPONSOIRS-->
+
+<!-- DIV DESKTOP
+ 
+ -->
+
+<div class="container-fluid d-none d-md-block">
+    <div class="row  flex-row text-center justify-content-center px-5 mx-5 my-5">
+        <h3>Tous les billets. Un seul guichet.</h3>
+        <h6>Nous vendons tous les billets que vous avez l’habitude d’acheter en France et tous ceux dont vous pourriez avoir besoin à l’étranger.</h6>
     </div>
+</div>
 
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui labore perspiciatis id quod debitis recusandae, sequi ea, quia. Atque, officiis. Quisquam, vitae temporibus deserunt sed minima, quibusdam accusamus rerum explicabo molestias aspernatur dolorem eius aliquam molestiae libero, dolorum doloremque maiores! Cum ab blanditiis aperiam rem. Reiciendis exercitationem possimus qui quaerat, iste assumenda voluptas veritatis magni voluptate tempore beatae nostrum reprehenderit maiores nihil modi nam alias ipsam eum, optio ad. Quas!</p>
-      </div>
+<!-- Tuiles visibles en version Desktop - non visibles en version mobile -->
+<div class="container-fluid d-none d-md-block ">
+    <div class="row no-gutters">
+        <div class="col-6 justify-content-center">
+            <img class="photos" src="img/couple-1030744_640.jpg">
+        </div>
+        <div id="center" class="col-6 py-5 px-5 mx-auto">
+            <h3>C’est simple et c’est tout.</h3>
+            <h6>Consultez les horaires des trains et le prix des billets dans une interface claire. Nous comparons les prix de plusieurs transporteurs, pour que vous n’ayez pas à le faire.</h6>
+        </div>
+        <div class="row no-gutters">
+            <div id="center" class="col-6 py-5 px-5 mx-auto">
+                <h3>La très grande vitesse.</h3>
+                <h6>Dès l’achat du billet. Trouvez et payez vos billets sur notre site en moins de temps qu’il n’en faut pour perdre patience sur un site ordinaire. Soit à peu près 58 secondes.</h6>
+            </div>
+            <div class="col-6 text-justify overflow-hidden">
+                <img class="photos" src="img/tgv-2719564_640.jpg">
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-6 justify-content-center">
+                <img class="photos" src="img/gleise-1555348_640.jpg">
+            </div>
+            <div id="center" class="col-6 py-5 px-5 mx-auto">
+                <h3>Sans pub et sans reproche.</h3>
+                <h6>En choisissant de ne vendre que des billets, nous avons dû laisser certaines choses de côté, comme les publicités, les messages et les erreurs incompréhensibles.</h6>
+            </div>
+        </div>
+    </div>    
+</div>
+<!-- Fin Tuiles visibles en version Desktop - non visibles en version mobile -->
+
+<!-- DESKTOP comment ca marche -
+Paiment à gauche et billet à doite -->
+
+<div id="ticket" class="container-fluid d-none d-md-block py-4">
+    <div class="row  flex-row">
+        <h3 class="col-12 text-center">Comment ça marche</h3>
+        <div id="containerTicket" class="col-6 text-center justify-content-center py-3 mx-auto">
+            <h5>Paiement</h5>
+            <p><img id="paiement" src="img/carte-credit.svg" />ou</p>
+            <img src="img/Paypal.svg">
+        </div>
+        <div id="containerTicket" class="col-6  text-center justify-content-center py-3 mx-auto ">
+            <h5>Billets</h5>
+            <p><img src="img/billet_carton.svg" />ou</p>
+            <img src="img/billet_elec.svg">
+        </div>
     </div>
+</div>
 
-    <footer class="container py-5">
-      <div class="row">
-        <div class="col-12 col-md">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem modi placeat atque voluptate provident molestias sit exercitationem, nihil, sunt amet quis aut ipsa vitae omnis quaerat eligendi voluptatem libero dolorum impedit adipisci. Quasi et eum, doloremque cupiditate praesentium dolores dolor velit aspernatur sunt quia, reiciendis nesciunt reprehenderit. Error molestias ipsum doloremque sapiente, provident consequuntur qui quidem assumenda mollitia magni. Facere possimus, fugiat in dolore fugit porro nam dolores vero sunt.</p>
+<!-- DESKTOP et MOBILE -->
 
+<div id="container-globe" class="container-fluid">
+<div class="row offset-2 col-8 text-center justify-content-center py-3">
+<div>
+<div><h3>Découvrez l’Europe en train</h3></div>
+<div class="my-2"><h6>Voyagez en train facilement et partout en Europe grâce aux pass Interail.</h6></div>
+<div class="my-2"><img id="globe" src="img/globe.png"></div>
+<div class="my-3"><a class="bouton btn btn-primary" href="#" role="button">achetez un pass</a></div>
+</div> 
+</div>
+</div>
+
+<!-- MOBILE - Télécharger l'application -->
+
+<div class="container-fluid d-block d-md-none">
+<div class="row  flex-row text-center justify-content-center my-5 px-5">
+<div><h3>Trainline marche encore mieux quand vous utilisez l'app.</h3></div>
+<div><h6>Tout le marketing du monde ne remplacera jamais ce que nos utilisateurs disent de nous. C’est encore eux qui parlent le mieux de notre service.</h6></div>
+<div class="my-3"><a id="appliButton" class="btn btn-primary" href="#" role="button">Télécharger l'application</a></div>
+</div>
+</div>
+
+
+<!-- DESKTOP -  Demandez conseil à nos utilisateurs.-->
+
+<div class="container-fluid d-none d-md-block">
+    <div class="row  flex-row text-center justify-content-center px-5 mx-5 my-5">
+        <h3>Demandez conseil à nos utilisateurs.</h3>
+        <h6>Tout le marketing du monde ne remplacera jamais ce que nos utilisateurs disent de nous. C’est encore eux qui parlent le mieux de notre service.</h6>
+    </div>
+</div>
+
+<div class="container-fluid d-none d-md-block">
+    <div class="row justify-content-around mx-5">
+
+
+        <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
         </div>
-        <div class="col-6 col-md">
-          <h5>Features</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Cool stuff</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Team feature</a></li>
-            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-            <li><a class="text-muted" href="#">Another one</a></li>
-            <li><a class="text-muted" href="#">Last time</a></li>
-          </ul>
+    </div>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
         </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">Resource name</a></li>
-            <li><a class="text-muted" href="#">Another resource</a></li>
-            <li><a class="text-muted" href="#">Final resource</a></li>
-          </ul>
+    </div>
+    <div class="col-3">
+        <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
         </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
-          </ul>
+    </div>
+</div>
+</div>
+
+<!-- DESKTOP -  Montez à bord !-->
+
+<div  class="container-fluid d-none d-md-block">
+    <div id="Reserver" class="row  flex-row text-center justify-content-center px-5 mx-5 my-5">
+        <div>
+        <h3>Montez à bord !</h3>
+        <h6>Arrêtez de vous prendre la tête. Prenez le train.</h6>
+        <div class="my-3"><a class="bouton btn btn-primary" href="#" role="button">Réservez un billet</a></div>
         </div>
-        <div class="col-6 col-md">
-          <h5>About</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-
-<!-- Script Bootsrap -->
-
-    <script>
-    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="	anonymous"></script>
-	
-	<script type="text/javascript" src="holder.min.js"></script>
+    </div>
+</div>
 
 
+<!-- Footer de la page -->
+
+
+        <footer class="container py-5">
+            <div class="row offset-1">
+                <div class="col-6 col-md">
+                <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Cool stuff</a></li>
+                        <li><a class="text-muted" href="#">Random feature</a></li>
+                        <li><a class="text-muted" href="#">Team feature</a></li>
+                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                        <li><a class="text-muted" href="#">Another one</a></li>
+                        <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Cool stuff</a></li>
+                        <li><a class="text-muted" href="#">Random feature</a></li>
+                        <li><a class="text-muted" href="#">Team feature</a></li>
+                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                        <li><a class="text-muted" href="#">Another one</a></li>
+                        <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Resource</a></li>
+                        <li><a class="text-muted" href="#">Resource name</a></li>
+                        <li><a class="text-muted" href="#">Another resource</a></li>
+                        <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Business</a></li>
+                        <li><a class="text-muted" href="#">Education</a></li>
+                        <li><a class="text-muted" href="#">Government</a></li>
+                        <li><a class="text-muted" href="#">Gaming</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Scripts Bootsrap -->
+
+        <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin=" anonymous"></script>
+        <script type="text/javascript" src="holder.min.js"></script>
 </body>
 
 </html>

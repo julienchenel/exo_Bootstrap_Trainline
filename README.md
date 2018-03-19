@@ -1,3 +1,9 @@
+Lien du projet :
+
+https://exo-trainline-neiluj.surge.sh/
+
+https://julienchenel.github.io/exo_Bootstrap_Trainline/
+
 ### Objectifs
 Créer les versions mobile et desktop d’une interface utilisateur en utilisant des maquettes fournies à utilisant le framework CSS bootstrap.
 
